@@ -1,0 +1,108 @@
+* {
+    margin:0;
+    padding: 0;
+}
+.First-Screen {
+    background-image: url(imgs/First-screen-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 720px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(135, 173, 182);
+    height: 100px;
+    align-items: center;
+}
+header > div {
+    display: flex;
+}
+header > div > ul {
+    display: flex;
+    list-style: none;
+}
+header > div > ul > li {
+    display: flex;
+    list-style: none;
+    padding-left: 90px;
+}
+header > div > div {
+    display: flex;
+    align-items: center;
+}
+header > div > div > a > img {
+    margin-right: 30px;
+}
+header > div > div > ul {
+    display: flex;
+    list-style: none;
+}
+header > div > div > ul > li {
+    padding-right: 70px;
+}
+.fs-text {
+    display: block;
+margin-left: 100px;
+margin-top: 80px;
+}
+.fs-text-big {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+.fs-text-lil {
+    color: white;
+    font-size: 23px;
+    width: 280px;
+}
+.fs-but {
+margin-top: 40px;
+}
+.fs-text > div > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fs-text2 {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin-top: 160px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fs-text2 > div > p {
+    margin-left: 30px;
+    color: white;
+}
+.fs-text2 > div > a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.fs-text2-but {
+    margin-left: 220px;
+    background-color: white;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+}
+.fs-text2-but > a {
+    color: black;
+    text-decoration: none;
+}
+.js-clr {
+    width: auto;
+    height: 150px;
+    background-color: #e0f0eb;
+}
