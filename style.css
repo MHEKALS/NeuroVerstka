@@ -266,6 +266,11 @@ justify-content: center;
     margin-left: 10px;
     margin-top: 30px;
 }
+.colored-cubes {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 30px;
+}
 .cy {
     background-color: #13C0D7;
     height: 20px;
