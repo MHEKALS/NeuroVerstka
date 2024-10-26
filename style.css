@@ -48,8 +48,8 @@ header > div > div > ul > li {
     padding-right: 70px;
 }
 header > div > div > ul > li > a {
-    color: black;
-    text-decoration: none;
+color: black;
+text-decoration: none;
 }
 .fs-text {
     display: block;
@@ -97,7 +97,10 @@ margin-top: 40px;
     text-decoration: none;
     margin-left: 20px;
 }
-.fs-text2-but {
+
+.fs-text2-but > a {
+    color: black;
+    text-decoration: none;
     margin-left: 130px;
     background-color: white;
     padding-right: 60px;
@@ -105,10 +108,6 @@ margin-top: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 6px;
-}
-.fs-text2-but > a {
-    color: black;
-    text-decoration: none;
 }
 .js-clr {
     width: auto;
@@ -243,11 +242,11 @@ justify-content: center;
     background-color: #005466;
 }
 .Fourth-Screen > div > img {
-    margin-top: -300px;
+    margin-top: -250px;
     width: 750px;
 }
 .Fourth-Screen-text {
-    margin-top: 200px;
+    margin-top: 280px;
 }
 .Fs-text-big {
     text-align: left;
@@ -574,14 +573,16 @@ justify-content: center;
     font-size: 50px;
 }
 .ElS-but {
-    width: 250px;
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-    padding-top: 15px;
-    padding-bottom: 15px;
+    text-align: left;
     margin-top: 30px;
 }
 .ElS-but > a {
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
