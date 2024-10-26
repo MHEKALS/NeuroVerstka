@@ -113,10 +113,11 @@ margin-top: 40px;
     width: auto;
     height: 150px;
     background-color: #F0FAF7;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 .Second-Screen {
     margin-top: 80px;
+    width: auto;
     display: inline-block;
     margin-left: 400px;
 }
@@ -138,7 +139,8 @@ justify-content: center;
     width: 460px;
 }
 .Third-Screen {
-    margin-top: 80px;
+    width: auto;
+    margin-top: 100px;
     display: inline-block;
     margin-left: 400px;
 }
@@ -375,6 +377,7 @@ justify-content: center;
 }
 .Sixth-Screen {
     display: flex;
+    width: auto;
     justify-content: center;
     margin-top: 200px;
     height: 1125.33;
