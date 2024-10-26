@@ -1,6 +1,7 @@
 * {
     margin:0;
     padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .First-Screen {
     background-image: url(imgs/First-screen-bg.png);
@@ -89,7 +90,7 @@ margin-top: 40px;
     margin-left: 20px;
 }
 .fs-text2-but {
-    margin-left: 220px;
+    margin-left: 130px;
     background-color: white;
     padding-right: 60px;
     padding-left: 60px;
@@ -105,4 +106,322 @@ margin-top: 40px;
     width: auto;
     height: 150px;
     background-color: #e0f0eb;
+    margin-top: 25px;
+}
+.Second-Screen {
+    margin-top: 80px;
+    display: inline-block;
+    margin-left: 400px;
+}
+.Second-Screen > div {
+display: flex;
+justify-content: center;
+}
+.fs-text-lil1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.fs-text-big1 {
+    display: flex;
+    text-align: center;
+    width: 460px;
+}
+.Second-Screen > div > img {
+    width: 460px;
+}
+.Third-Screen {
+    margin-top: 80px;
+    display: inline-block;
+    margin-left: 400px;
+}
+.Third-Screen > div {
+display: flex;
+justify-content: center;
+}
+.cubes {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-top: 40px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+.cube1 {
+    background-color: #005466;
+    display: inline-block;
+    width: 250px;
+    height: 225px;
+    text-align: center;
+}
+.cube1 > div {
+    margin-top: 40px;
+}
+.cube1 > div > p {
+    color: white;
+}
+.cube1 > div > a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.cube2 {
+    background-color: #F7D8BF;
+    display: inline-block;
+    width: 250px;
+    height: 225px;
+    text-align: center;
+}
+.cube2 > div {
+    margin-top: 40px;
+}
+.cube2 > div > p {
+    color: #C47B59;
+}
+.cube2 > div > a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.cube3 {
+    background-color: rgb(217, 244, 250);
+    display: inline-block;
+    width: 250px;
+    height: 225px;
+    text-align: center;
+}
+.cube3 > div {
+    margin-top: 40px;
+}
+.cube3 > div > p {
+    color: #64BAA1;
+}
+.cube3 > div > a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Waves {
+    margin-top: 100px;
+    background-image: url(imgs/Waves.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin-bottom: -10px;
+}
+.Fourth-Screen {
+    display: flex;
+    text-align: center;
+    height: 1000px;
+    background-color: #005466;
+}
+.Fourth-Screen > div > img {
+    margin-top: -300px;
+    width: 750px;
+}
+.Fourth-Screen-text {
+    margin-top: 200px;
+}
+.Fs-text-big {
+    text-align: left;
+    color: white;
+    font-size: 50px;
+}
+.Fs-text-lil {
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    width: 380px;
+}
+.colored-cubes {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.cy {
+    background-color: #13C0D7;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+
+}
+.or {
+    background-color: #D53F23;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-left: 20px;
+}
+.colored-cubes > div > p {
+    color: white;
+    margin-left: 20px;
+}
+.Fs-but {
+    display: flex;
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+.Fs-but > a {
+    color: white;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    width: 250px;
+    padding-top: 10px;
+}
+.Waves-sand {
+    margin-top: -120px;
+    background-image: url(imgs/Waves-sand.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin-bottom: -10px;
+}
+.Fifth-Screen {
+    display: flex;
+    background-color: #F7D8BF;
+    height: 900px;
+    width: auto;
+}
+.Fifth-Screen > div {
+    padding-top: 300px;
+    margin-left: 100px;
+    width: 250px;
+}
+.FS-text-big {
+    text-align: left;
+    color: #C47B59;
+    font-size: 50px;
+}
+.FS-text-lil {
+    color: #C47B59;
+    font-size: 17px;
+    text-align: left;
+    width: 370px;
+}
+.br {
+    background-color: #C47B59;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+
+}
+.bor {
+    background-color: #EF9632;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-left: 20px;
+}
+.colored-cubes > div > p {
+    color: #C47B59;
+    margin-left: 20px;
+}
+.FS-but {
+    display: flex;
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+.FS-but > a {
+    color: #C47B59;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    width: 250px;
+    padding-top: 10px;
+}
+.Fifth-Screen > div > img {
+    margin-top: -320px;
+    width: 800px;
+}
+.Sixth-Screen {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    height: 1125.33;
+}
+.Sixth-Screen > div > img {
+    width: 400px;
+}
+.SS-text {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.SS-text-big {
+    text-align: left;
+    color: black;
+    font-size: 35px;
+}
+.SS-text-lil {
+    margin-top: 10px;
+    color: black;
+    font-size: 17px;
+    text-align: left;
+    width: 355px;
+}
+.SS-but {
+    display: flex;
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+.SS-but > a {
+    color: #000000;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    width: 250px;
+    padding-top: 10px;
+}
+.Seventh-Screen {
+    display: flex;
+    justify-content: center;
+    background-color: #F1FAF6;
+    height: 800px;
+    margin-top: 100px;
+}
+.Seventh-Screen > div {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.Seventh-Screen > div > div > img {
+    width: 400px;
+    margin-right: 100px;
+}
+.SS-text2 {
+    margin-top: 100px;
 }
